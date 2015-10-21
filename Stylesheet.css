@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    text-indent: 150px;
+}
+
+#main {
+    color: black;
+    background-color: lightgray;
+    text-indent: 50px;
+}
+
+#pictures {
+    background-color: #333;
+    align-content: center;
+}
+
+#nav {
+    float: left;
+    background-color: black;
+    height: 450px;
+    width: 100px;
+    text-align: center;
+}
+
+
+#chart_div{
+    float: right;
+    background-color: lightgray;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 1300px;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+}
