@@ -4,7 +4,7 @@
     <title>Music Chart</title>
     <! -- links the css portion with html -- !>
     <link rel="stylesheet" type="text/css" href="Stylesheet.css">
-    <
+    <script type="text/javascript" src="Photo%20Description.js"></script>
 </head>
 <body>
 <h1>Music Sales 2012-2014</h1>
@@ -27,19 +27,28 @@
     <div id="pictures">
         <table style="align-content: center">
             <tr>
-                <td><img id="1" src="iTunes.png" height="100px" width="100px"></td>
-                <td><img id="2" src="Spotify.jpg" width="150px" height="75px"></td>
-                <td><img id="3" src="Xbox.jpg" height="100px" width="100px"></td>
+                <td><img id="1" src="iTunes.png" height="100px" width="100px"><p id="Description1">The image above once clicked shows
+                    how iTunes has changed from the new to the old.</p><button onClick= img1Desc();>Change Description</button></td>
+                <td><img id="2" src="Spotify.jpg" width="150px" height="75px"><p id="Desc2">The Spotify newest logo
+                    has drastically changed from the original.</p><button onClick= img2Desc();>Change the Description</button></td>
+                <td><img id="3" src="Xbox.jpg" height="100px" width="100px"><p id="Desc3">Now know as Xbox Music,
+                    Xbox music was originally Zune.</p><button onClick= img3Desc();>Change?</button></td>
             </tr>
             <tr>
-                <td><img id="4" src="Pandora.jpg" width="100px" height="110px"></td>
-                <td><img id="5" src="Zune.jpg" height="100px" width="100px"></td>
-                <td><img id="6" src="unnamed.png" width="100" height="100"></td>
+                <td><img id="4" src="Pandora.jpg" width="100px" height="110px"><p id="Desc4">Pandora is now a poopular
+                music station that people use.</p><button onClick= img4Desc();>CHANGE</button></td>
+                <td><img id="5" src="Zune.jpg" height="100px" width="100px"><p id="Desc5">Zune is now a fallen program
+                that was changed into Xbox Music</p><button onClick= img5Desc();>Click or Not to Click</button></td>
+                <td><img id="6" src="unnamed.png" width="100" height="100"><p id="Desc6">iHeart radio is starting to
+                catch up with Pandora's popularity.</p><button onClick= img6Desc();>Use the Force</button></td>
             </tr>
             <tr>
-                <td><img id="7" src="The_new_logo_of_Rhapsody.jpg" height="100px" width="175"></td>
-                <td><p style="text-align: center"><img id="8" src="slacker-logo.jpg" height="100" width="100"></p></td>
-                <td><img id="9" src="Amazon.jpg" height="100px" width="175px"></td>
+                <td><img id="7" src="The_new_logo_of_Rhapsody.jpg" height="100px" width="175"><p id="Desc7">Rhaspody is a music station
+                service.</p><button onClick= img7Desc()>Want To Play a Game?</button></td>
+                <td><p style="text-align: center"><img id="8" src="slacker-logo.jpg" height="100" width="100"><p id="Desc8">Another Music App
+                </p><button onclick= img8Desc();>Push</button></td>
+                <td><img id="9" src="Amazon.jpg" height="100px" width="175px"><p id="Desc9">This is Amazon's attempt for money</p><button onclick= img9Desc();>
+                    Click if you don't like Amazon</button></td>
             </tr>
         </table>
         <script src="jquery1.js"></script>
