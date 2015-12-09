@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Music Chart</title>
-    <! -- links the css portion with html -- !>
+    <! -- links the css portion with html !>
     <link rel="stylesheet" type="text/css" href="Stylesheet.css">
     <script type="text/javascript" src="Photo%20Description.js"></script>
 </head>
@@ -54,7 +54,10 @@
         <script src="jquery1.js"></script>
         <script>
             $("#1").click(function(){
-                $("#1").attr('src', "iTunes1.png").width(125);
+                function img () {
+                $("#1").attr('src', "iTunes1.png", image).width(125);
+                }
+                image ();
             });
             $("#2").click(function(){
                 $("#2").attr('src', "Spotify1.png");
